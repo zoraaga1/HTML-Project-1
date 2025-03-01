@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-right: px;
+    background-color: rgb(200, 114, 114);
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+nav ul{
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style: none;
+    background-color: black;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main {
+    padding: 10px;
+    padding-top: 100px;
+    background-color: bisque;
+}
+
+#form {
+    display: flex;
+    gap: 5px;
+}
+
+footer {
+    margin: 0px;
+    background-color: black;
+    color: aliceblue;
+}
+
+footer p {
+    margin: 0px;
+    padding: 5px;
+}
